@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        recorre=prompt ("Que distancia recorres?");
+        recorre=parseInt(recorre)
+        
+        if(recorre<1000)
+        {document.write("deberias ir caminado")}
+        else if(recorre>=1000 && recorre<10000)
+    {document.write("deberias ir en bicicleta")}
+    else if(recorre>10000 && recorre<=30000)
+    {document.write("deberias ir en colectivo")}
+    else if(recorre>30000 && recorre<=100000)
+    {document.write("deberias ir en auto")}
+    else
+    {document.write("deberias ir en avion")}
+        </script>  
+</body>
+</html>
